@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Splash">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:lottie_rawRes="@raw/splashloader2"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By,"
+        android:textSize="25sp"
+        android:textColor="#00C8A2"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaurav Wani"
+        android:textColor="#00C8A2"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+
+</LinearLayout>
